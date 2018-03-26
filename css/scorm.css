@@ -1,0 +1,30 @@
+#sco-iframe {
+  display: block;
+}
+
+#sco-nav-wrapper {
+  text-align: center;
+  padding: 5px 0;
+}
+
+#sco-nav-wrapper button {
+  width: auto;
+  margin: 0 2px;
+  padding: 4px 8px;
+  background: linear-gradient(to bottom, #fff 0, #f2f2f2 100%);
+  border: 1px solid #ccc;
+  border-radius: 0.25em;
+  font-size: 0.875em;
+  color: #333;
+  cursor: pointer;
+}
+
+#sco-nav-wrapper button:enabled:hover {
+  text-decoration: none;
+  border-color: #999;
+}
+
+#sco-nav-wrapper button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}

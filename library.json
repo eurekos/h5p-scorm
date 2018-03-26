@@ -1,0 +1,47 @@
+{
+  "title": "SCORM/xAPI",
+  "machineName": "H5P.Scorm",
+  "description": "Upload a SCORM package.",
+  "majorVersion": 1,
+  "minorVersion": 1,
+  "patchVersion": 16,
+  "runnable": 1,
+  "author": "Pavlo Shevchuk",
+  "license": "MIT",
+  "embedTypes": [
+    "div"
+  ],
+  "preloadedJs": [
+    {
+      "path": "js/api/datamodel.js"
+    },
+    {
+      "path": "js/api/api_1_2.js"
+    },
+    {
+      "path": "js/api/api_2004.js"
+    },
+    {
+      "path": "js/scorm.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "css/scorm.css"
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "FontAwesome",
+      "majorVersion": 4,
+      "minorVersion": 5
+    }
+  ],
+  "editorDependencies": [
+    {
+      "machineName": "H5PEditor.ScormFile",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
+  ]
+}
